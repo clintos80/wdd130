@@ -63,6 +63,17 @@ h1 {
     color: #fff;
 }
 
+article {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0, auto;
+    top: 100px;
+    width: 95%;
+    padding: 16px;
+    background-color: #bbe5bb;
+}
+
 .hero article img {
     float: right;
     width: 125px;
