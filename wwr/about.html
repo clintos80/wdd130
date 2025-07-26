@@ -15,10 +15,12 @@
     <header>
         <img src="images/z-splash.png" alt="Rafting Company Logo">
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
+            <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="trips.html">Trips</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -31,23 +33,43 @@
                     Tenetur exercitationem necessitatibus earum dignissimos illum quis dolor, reprehenderit in debitis veritatis ipsa delectus cumque repellendus quae doloremque cupiditate dolorem beatae dolores at, corporis voluptatibus.</p>
             </article>
         </div>
-        <section>
+        <section class="history">
             <h2>History</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat omnis, praesentium voluptatibus aut corrupti dolorem quibusdam harum hic dolores consectetur placeat libero maiores neque ipsam. 
-                    Tenetur exercitationem necessitatibus earum dignissimos illum quis dolor, reprehenderit in debitis veritatis ipsa delectus cumque repellendus quae doloremque cupiditate dolorem beatae dolores at, corporis voluptatibus.</p>
+            <ul class="historycont">
+            <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat omnis, praesentium voluptatibus aut corrupti dolorem quibusdam harum hic dolores consectetur placeat libero maiores neque ipsam. 
+                    Tenetur exercitationem necessitatibus earum dignissimos illum quis dolor, reprehenderit in debitis.</p></li>
+            <li><img src="images/rafting_history.jpg" alt="">An image of rafting</li>
+            <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat omnis, praesentium voluptatibus aut corrupti dolorem quibusdam harum hic dolores consectetur placeat libero maiores neque ipsam. 
+                    Tenetur exercitationem necessitatibus earum dignissimos illum quis dolor, reprehenderit in debitis.</p></li>
+            </ul>
         </section>
-        <section>
-            <h2>Adventure Awaits You!</h2>
-            <img src="images/rafting1.jpg" alt="Rafting image one">
-            <img src="images/rafting2.jpg" alt="Rafting image two">
-            <img src="images/rafting3.jpg" alt="Rafting image three">
-            <img src="images/rafting4.jpg" alt="Rafting image four">
-            <img src="images/rafting5.jpg" alt="Rafting image five">
+        <section class="adventures">
+            <h2>Adventure Awaits You</h2>
+            <figure>
+    <img src="images/rafting1.jpg" alt="Los Dientes del Diablo">
+    <figcaption>Los Dientes del Diablo</figcaption>
+  </figure>
+  <figure>
+    <img src="images/rafting2.jpg" alt="Big Mallard">
+    <figcaption>Big Mallard</figcaption>
+  </figure>
+  <figure>
+    <img src="images/rafting3.jpg" alt="Half Day Adventure">
+    <figcaption>Half Day Adventure</figcaption>
+  </figure>
+  <figure>
+    <img src="images/rafting4.jpg" alt="Wild Rapid">
+    <figcaption>Wild Rapid</figcaption>
+  </figure>
+  <figure>
+    <img src="images/rafting5.jpg" alt="Sunset Falls">
+    <figcaption>Sunset Falls</figcaption>
+  </figure>
         </section>
     </main>
-    <footer>
-        <p>©2025 ✤ White Water Rafting Company ✤ Clinton Selekeowei</p>
-        <nav class="socialmedia">
+    <footer class="site-footer">
+        <p>&copy; 2025 ✤ White Water Rafting Company. All rights reserved.</p>
+        <div class="social-icons">
             <a href="https://www.facebook.com/">
                 <img src="images/facebook_logo.svg" alt="Facebook socialmedia icon">
             </a>
@@ -57,7 +79,7 @@
              <a href="https://www.twitter.com/">
                 <img src="images/twitter_logo.svg" alt="Twitter socialmedia icon">
             </a>
-        </nav>
+        </div>
     </footer>
 </body>
 </html>

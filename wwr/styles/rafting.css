@@ -38,7 +38,7 @@ nav, p, section, article {
     padding: 8px;
 }
 
-.socialmedia a {
+.social-icons a {
     text-decoration: none;
 }
 
@@ -77,4 +77,132 @@ article {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 380px 1fr;
+	align-items: center;
+	max-width: 1000px;
+}
+
+header img {
+	margin: 0 0.25rem 0 1rem;
+	width: 74px;
+	height: auto;
+}
+
+.navigation {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+    font-family: var(--heading-font);
+}
+
+.navigation li {
+	flex: 1 1 auto;
+}
+
+.navigation a {
+	display: block;
+	color: var(--accent2-color);
+	padding: 20px;
+	text-decoration: none;
+	font-size: 1rem;
+}
+
+.navigation a:hover {
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.history {
+  max-width: 1000px;
+  margin: 0 auto;  
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.history h2 {
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--accent1-color);
+}
+
+.historycont{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+	list-style: none;
+	padding: 0;
+}
+
+.historycont li img {
+    width: 260px;
+	height: auto;
+}
+
+.adventures {  
+  max-width: 1000px;
+  margin: 0 auto;  
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.adventures h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--accent1-color);
+  grid-column: 1 / -1;
+}
+
+.adventures {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+.adventures figure {
+  margin: 0;
+  text-align: center;
+}
+
+.adventures img {
+  width: 150px;
+  height: auto;
+  display: block;
+}
+
+.adventures figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: #333;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;           
+  padding: 1rem 2rem;
+  background-color: #403f3f;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+.site-footer p {
+  margin: 0 auto 0 0;
+  text-align: center;
+  font-size: 0.8rem;
+  flex: 1;           
+}
+
+.social-icons {
+  display: flex;         
+  gap: 1rem;            
+}
+
+.social-icons img {
+  width: 30px;           
+  height: auto;
 }
