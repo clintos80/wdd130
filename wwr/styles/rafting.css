@@ -470,3 +470,145 @@ footer a {
     border-radius: 4px;
     cursor: pointer;
 }
+
+
+
+.trips-hero {
+    margin: 0;
+    width: 840px;
+    position: relative;
+    height: 400px; 
+    overflow: hidden;
+    color: var(--accent2-color);
+    text-align: center;
+}
+
+.trips-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: brightness(0.7);
+}
+
+.trips-hero .trips-hero-content {
+    position: relative;
+    z-index: 2;
+    padding-top: 150px;
+}
+
+.trips-hero-content h1 {
+    font-family: var(--heading-font);
+    font-size: 2rem;
+    color: var(--accent2-color);
+    margin-bottom: 10px;
+}
+
+.trips-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.trip-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.trip-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.trip-card:hover {
+    transform: translateY(-5px);
+}
+
+.trip-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.trip-info {
+    padding: 20px;
+}
+
+.difficulty {
+    font-family: var(--body-font);
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.difficulty:before {
+    content: "• ";
+    color: #0077cc;
+}
+
+.trip-info p {
+    padding-left: 0;       
+    margin: 10px 0;      
+}
+
+.trip-info ul {
+    list-style-type: none;
+    padding-left: 0;     
+    margin: 10px 0;      
+}
+
+.trip-info li {
+    margin-bottom: 6px;
+}
+
+.book-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: var(--body-font);
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.book-btn:hover {
+    background-color: #043e7d;
+}
+
+.trip-table {
+    margin: 50px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.trip-table h2 {
+  font-family: var(--heading-font);
+  color: var(--accent1-color);
+}
